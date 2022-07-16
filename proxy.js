@@ -29,6 +29,6 @@ app.use('/api', proxy('http://localhost:3000/',{
 }));
 
 app.listen(port, () => {
-    console.log("API is working on port 4000")
+    console.log("API is listening on port 4000")
 })
 
